@@ -1,0 +1,72 @@
+.form {
+    width: 1005;
+    min-height: 100px;
+    background: #5C87DB;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.containerField {
+    display: flex;
+    padding: 17px 30px 30px;
+}
+
+.fieldItem:not(:last-child) {
+    margin-right: 21px;
+}
+
+.label {
+    display: block;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.input {
+    padding: 12px 0;
+    padding-left: 12px;
+    border: none;
+    color: #B7BAC1;
+    background: #fff;
+    width: 208px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    outline: none;
+    border: 1px solid transparent;
+    transition: all .2s ease;
+}
+
+.input:hover {
+    color: #5C5C5C;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid #5C87DB;
+}
+
+.input:active {
+    color: #5C5C5C;
+    border: 1px solid #5C87DB;
+}
+
+.date {
+    background: #fff url('../img/calendar.svg') no-repeat left center / cover;
+    background-size: 16px;
+    padding-left: 34px;
+    background-position: 12px;
+}
+.date::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+}

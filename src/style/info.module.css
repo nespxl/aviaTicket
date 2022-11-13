@@ -1,0 +1,7 @@
+.containerTicket {
+    width: 980px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    border-radius: 15px;
+}

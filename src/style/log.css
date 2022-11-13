@@ -1,0 +1,11 @@
+.today {
+    background: rgba(120, 140, 160, 1);
+}
+
+.past {
+    background: black;
+}
+
+.future {
+    background: black;
+}
